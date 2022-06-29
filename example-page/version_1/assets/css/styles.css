@@ -1,0 +1,268 @@
+.bg-blue {
+    background-color: #78BCFF;
+}
+
+/*basic layout*/
+.content-outer {
+    width: 100%;
+    overflow: hidden;
+}
+.content-inner {
+    margin: 0 auto; /*mittig zentrieren*/
+    width: 100%;
+    max-width: 1280px;
+}
+
+/*Top Header*/
+.top-header {
+    border-radius: 0;
+    margin: 0 !important;
+}
+
+/*buttons*/
+.button {
+
+}
+/*logo*/
+.logo {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 0;
+    max-height: 100% !important;
+}
+/*hero*/
+.hero-body {
+    background: url('../images/header-start.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/*navbar*/
+.navbar-brand {
+    align-items: center;
+}
+
+/*helfer-klassen*/
+
+.align-center {
+    align-items: center;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.no-radius {
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.text-center {
+    text-align: center;
+}
+.align-center {
+    justify-content: center;
+}
+
+/*trenner*/
+.trenner {
+    border: 0;
+    background-color: #fff;
+    background-image: url('../images/trennlinie.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 10px;
+}
+
+/*SLIDER : START*/
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;  /* <===  */
+    border-radius: 15px;
+}
+
+.slide {
+    position: relative;
+}
+.slider-initialized .slide {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-wrapper {
+    height: auto;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.slider-initialized.slider-wrapper {
+    height: 600px;
+}
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+    color: orange;
+
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+.btn-prev {
+    top: 45%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 45%;
+    right: 2%;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 30px;
+    padding: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.pagination {
+    position: absolute;
+    bottom: -20px;
+    display: flex;
+}
+.pag-circle {
+    background-color: #6f6f6f;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+}
+.pag-circle.is-active {
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+}
+/*SLIDER : END*/
+/*Farbige Boxen : START */
+
+.color-box {
+    padding: 25px;
+}
+
+/*Hintergrundfarben*/
+/*z.B. verwendet bei farbigen boxen*/
+.bg-orange {
+    background-color: orange;
+}
+/*Farbige Boxen : END */
+
+.box-logo {
+    font-size: 5rem;
+}
+
+.bg-box {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/*Burger Menu : START*/
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-right .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/*Burger Menu : END*/
+
+.footer-box{
+    margin-top: 20px;
+    border-radius: 0px;
+    align-items: center;
+}

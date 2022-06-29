@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <!--    responsive tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    bulma hinzufügen-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!--    google font railway hinzufügen-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <!--    fontawesome hinzufügen-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--    eigenes css hinzufügen-->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+</div>
+<div id="main" class="content-outer">
+    <div class="content-inner">
+        <!--   gesamter Content landet in diesem Div-->
+
+        <!--        top-header in blau mit navi rechts-->
+        <div class="outer-container box top-header bg-blue">
+            <div class="inner-container is-flex is-justify-content-flex-end buttons">
+                <button class="button is-rounded"><i class="fa-solid fa-envelope"></i>Test</button>
+                <button class="button is-rounded"><i class="fa-solid fa-bicycle"></i>Test</button>
+            </div>
+        </div>
+        <!--        top-header in blau mit navi rechts : ENDE-->
+        <!--        HERO : START-->
+        <div class="hero is-large">
+            <!-- Hero head: will stick at the top -->
+            <div class="hero-head box no-radius">
+                <header class="navbar">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a class="navbar-item">
+                                <img src="../assets/images/logo.png" alt="Logo" class="logo">
+                            </a>
+                            <span class="navbar-burger" onclick="openNav()" data-target="navbarMenuHeroC">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </span>
+                        </div>
+                        <div id="navbarMenuHeroC" class="navbar-menu">
+                            <div class="navbar-end align-center">
+                                <a class="button is-rounded navbar-item is-active">
+                                    Home
+                                </a>
+                                <a class="navbar-item">
+                                    Examples
+                                </a>
+                                <a class="navbar-item">
+                                    Documentation
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <!--            hier ist das große Bild als background-style -->
+            <div class="hero-body">
+            </div>
+        </div>
+        <!--        HERO : END-->
+
+        <div class="outer-container box no-border no-radius">
+            <div class="inner-container">
+                <div class="content align-center text-center">
+                    <h1>Lorem ipsum <br> dolor sit <span class="color-orange">ich bin orange</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="box outer-container trenner">
+        </div>
+
+        <!--  ENDE : CONTENT-->
+
+        <!-- Slider : START-->
+        <div class="outer-container box no-border no-radius">
+            <div class="inner-container">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <!-- slide 1 -->
+                        <div class="slide">
+                            <img src="https://source.unsplash.com/random?landscape,mountain" alt=""/>
+                            <div class="slide-text">
+                                Das ist ein Text
+                            </div>
+                        </div>
+
+                        <!-- slide 2 -->
+                        <div class="slide">
+                            <img src="https://source.unsplash.com/random?landscape,cars" alt=""/>
+                        </div>
+
+                        <!-- slide 3 -->
+                        <div class="slide">
+                            <img src="https://source.unsplash.com/random?landscape,night" alt=""/>
+                        </div>
+
+                        <!-- slide 4 -->
+                        <div class="slide">
+                            <img src="https://source.unsplash.com/random?landscape,city" alt=""/>
+                        </div>
+                    </div>
+                    <!-- Control buttons -->
+                    <button class="btn btn-next"><i class="fa-solid fa-chevron-right"></i></button>
+                    <button class="btn btn-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="pagination">
+                        <span class="pag-circle"></span>
+                        <span class="pag-circle"></span>
+                        <span class="pag-circle"></span>
+                        <span class="pag-circle"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slider : END-->
+        <div class="outer-container box no-border no-radius">
+            <div class="inner-container">
+                <div class="columns is-centered">
+                    <div class="column is-3 is-centered">
+                        <div class="bg-box card is-rounded color-box bg-orange has-text-centered">
+                            <div class="box-logo">
+                                <i class="fa-solid fa-bicycle"></i>
+                            </div>
+                            <div class="box-logo-text">
+                                Logo Text
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-3 is-centered">
+                        <div class="bg-box card is-rounded color-box bg-orange has-text-centered">
+                            <div class="box-logo">
+                                <i class="fa-solid fa-bicycle"></i>
+                            </div>
+                            Logo Text
+                        </div>
+                    </div>
+                    <div class="bg-box column is-3 is-centered">
+                        <div class="bg-box card is-rounded color-box bg-orange has-text-centered">
+                            <div class="box-logo">
+                                <i class="fa-solid fa-bicycle"></i>
+                            </div>
+                            Logo Text
+                        </div>
+                    </div>
+                    <div class="column is-3 is-centered">
+                        <div class="bg-box card is-rounded color-box bg-orange has-text-centered">
+                            <div class="box-logo">
+                                <i class="fa-solid fa-bicycle"></i>
+                            </div>
+                            Logo Text
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+    <footer>
+        <div class="box has-background-black footer-box is-mobile">
+            <div class="columns has-text-centered">
+                <div class="column"></div>
+                <div class="column"><p>Services </p></div>
+                <div class="column"><p>Kontakt</p></div>
+                <div class="column"><p>Impressum</p></div>
+                <div class="column"><p>Datenschutz</p></div>
+                <div class="column"></div>
+            </div>
+
+        </div>
+    </footer>
+
+</div>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>

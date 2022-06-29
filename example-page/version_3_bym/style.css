@@ -1,0 +1,338 @@
+.container-aussen{
+    width: 100%;
+}
+
+.container-innen{
+    margin: 0 auto;
+    width: 100%; 
+    max-width: 1280px;
+}
+
+
+
+
+.top-header{
+    box-shadow: none;
+    background-color: #78BCFF;
+    border-radius: 0px;
+    margin: 0px !important;
+}
+
+.icon-top-header{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.container-aussen{
+    width: 100%;
+}
+
+.container-innen{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.button-top-header{
+    border: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.button-email{
+    margin-right: 20px;
+}
+
+
+.navbar-menue{
+    box-shadow: none;
+    border-radius: 0px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
+
+.hero  {
+    background: url('img/header-home.jpg');
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+.logo-start{
+    max-width: 130px !important;
+    max-height: 100% !important;
+}
+
+
+.meneu-punkte{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+/**
+
+Hier gilt unsere Regel:
+<div id="navbarMenuHeroA">
+    <div class="is-active>
+    </div>
+</div>
+Auch hier:
+<div id="navbarMenuHeroA">
+    <div class="neue_class">
+        <div class="is-active>
+        </div>
+    </div>
+</div>
+
+
+ */
+
+#navbarMenuHeroA .is-active {
+    background-color: #FF702E !important;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff !important;
+}
+
+.untermenue:hover {
+    background-color: #fff !important;
+    color: #4a4a4a !important;
+}
+
+.menue-font{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.ueberschrift-start{
+    color: #FF702E;
+}
+
+.h1-startseite{
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.pfeil-orange{
+    font-size: 50px;
+    color: #FF702E;
+    padding-bottom: 30px;
+}
+
+
+.trenner {
+    background-image: url('img/trennlinie.png');
+    background-size: contain;
+    height: 12px;
+    margin-top: 20px;
+}
+
+
+.box-start-blau{
+    background: #78BCFF;
+    padding: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.h2-start{
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.text-start{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.strich-text-blauer-kasten{
+    border: 0px;
+    background-color: #fff;
+    width: 60px;
+    height: 2px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.bg-blau{
+    background-color: #78BCFF !important;
+}
+
+.bg-grau{
+    background-color: #C5C5C5 !important;
+}
+
+.bg-gelb{
+    background-color: #FDC500 !important;
+}
+
+.bg-gruen{
+    background-color: #26BC00 !important;
+}
+
+.text-teaser{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.box-teaser{
+    margin: 50px !important;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+.teaser-unterseiten{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-bg{
+    background-color: #000000;
+}
+
+.text-footer{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;  /* <===  */
+    border-radius: 15px;
+}
+
+.slide {
+    position: relative;
+}
+.slider-initialized .slide {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-wrapper {
+    height: auto;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.slider-initialized.slider-wrapper {
+    height: 600px;
+}
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+    color: orange;
+
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+.btn-prev {
+    top: 45%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 45%;
+    right: 2%;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 30px;
+    padding: 25px;
+    background-color: #78BCFF;
+    color: white;
+    border-radius: 20px;
+}
+
+.pagination {
+    position: absolute;
+    bottom: -20px;
+    display: flex;
+}
+.pag-circle {
+    background-color: #6f6f6f;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+}
+.pag-circle.is-active-slide {
+    background-color: orange;
+}
+
+.schatten-slider{
+    box-shadow: none;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+/*javascript deaktiviert : burger*/
+.navbar-menu {
+    display: block !important;
+}
